@@ -1,5 +1,10 @@
 project: 
   type: website
+  output-dir: docs
+
+render:
+  - presentation.qmd
+  - index.qmd
   
 # This file specifies that the output of the whole repository is a website. 
 # When rendered it creates the directory _site which includes the whole HTML-files
